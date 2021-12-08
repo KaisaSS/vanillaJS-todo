@@ -19,8 +19,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px 0;
-  width: 100%;
+  margin: 30px 0;
 }
 
 .input .input-element {
@@ -118,4 +117,32 @@ input {
 .error {
   border: 1px solid rgb(168, 1, 1);
   background: rgba(255, 166, 166, 0.233);
+}
+
+@media only screen and (max-width: 600px) {
+  .input {
+    font-size: 0.8em;
+    margin: 30px 10px;
+  }
+
+  .input .input-element {
+    padding: 13px 5px;
+  }
+
+  .input .input-btn {
+    padding: 13px 0;
+  }
+
+  .action-btns {
+    flex-direction: column;
+  }
+
+  .action-btn {
+    margin: 5px 0;
+  }
+
+  .item {
+    width: 80%;
+    padding: 10px;
+  }
 }
