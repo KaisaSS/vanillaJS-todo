@@ -19,21 +19,25 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 0;
+  padding: 30px 0;
   width: 100%;
 }
 
 .input .input-element {
-  padding: 10px 15px;
+  padding: 15px 20px;
   width: 60%;
-  font-size: 1em;
+  font-size: 1.2em;
   margin-right: 10px;
 }
 
+input {
+  outline: none;
+}
+
 .input .input-btn {
-  padding: 10px;
+  padding: 15px 10px;
   width: 140px;
-  font-size: 0.9em;
+  font-size: 1.2em;
   background: black;
   color: white;
   border: none;
@@ -90,6 +94,7 @@ body {
   border-radius: 5px;
   color: white;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .action-btns {
@@ -108,4 +113,9 @@ body {
   background: white;
   color: rgb(88, 192, 88);
   border: 1px solid rgb(88, 192, 88);
+}
+
+.error {
+  border: 1px solid rgb(168, 1, 1);
+  background: rgba(255, 166, 166, 0.233);
 }
