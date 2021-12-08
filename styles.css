@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  background: rgb(255, 252, 229);
+}
+
+.app {
+  width: 100%;
+}
+
+.header {
+  padding: 15px;
+  font-size: 2em;
+  font-family: monospace;
+  background: rgb(255, 238, 190);
+  border-bottom: 2px solid black;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.input .input-element {
+  padding: 10px 15px;
+  width: 60%;
+  font-size: 1em;
+  margin-right: 10px;
+}
+
+.input .input-btn {
+  padding: 10px;
+  width: 140px;
+  font-size: 0.9em;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.input .input-btn:hover {
+  background: rgb(41, 41, 41);
+}
+
+.input .input-btn:active {
+  background: rgb(32, 32, 32);
+}
+
+.hide {
+  display: none;
+}
+
+.item {
+  background: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.item .item-text {
+  font-size: 1.2em;
+  width: 60%;
+}
+
+.edit-input {
+  width: 50%;
+  padding: 8px 12px;
+  border: 1px solid rgb(240, 240, 240);
+}
+
+.action-btn {
+  padding: 8px 12px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.action-btns {
+  display: flex;
+}
+
+.edit-btn {
+  background: rgb(88, 192, 88);
+}
+
+.remove-btn {
+  background: rgb(192, 68, 68);
+}
+
+.update-btn {
+  background: white;
+  color: rgb(88, 192, 88);
+  border: 1px solid rgb(88, 192, 88);
+}
